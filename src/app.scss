@@ -14,10 +14,14 @@ main{
     height: 100%;
     width: 100%;
 
-    background-image: url(/public/tom-barrett-hgGplX3PFBg-unsplash\ \(2\).jpg);
+
+    background-image: url(/public/bgc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+      position: relative;
+  overflow: hidden;
 }
 body{
     background-color: #302f2f;

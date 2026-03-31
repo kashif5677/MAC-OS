@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.scss'
+import DateTime from './DateTime'
 
 function Navbar() {
   return (
@@ -26,6 +27,7 @@ function Navbar() {
             <div className="nav-icon">
                 <img src="public\navbar-icons\icons8-wifi-16.png" alt="" />
             </div>
+            <DateTime/>
         </div>
     </nav>
   )
