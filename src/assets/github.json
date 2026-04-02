@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1640340434855-6084b1f4901c?w=600&auto=format&fit=crop",
+    "title": "AI Trading Dashboard",
+    "description": "A smart trading dashboard that visualizes stock trends and signals using AI-based predictions.",
+    "tags": ["React", "Node.js", "AI", "Chart.js"],
+    "repoLink": "https://github.com/user/ai-trading-dashboard",
+    "demoLink": "https://ai-trading-demo.vercel.app"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop",
+    "title": "Portfolio Website",
+    "description": "A modern responsive portfolio website with smooth animations and dark mode support.",
+    "tags": ["HTML", "CSS", "JavaScript", "GSAP"],
+    "repoLink": "https://github.com/user/portfolio-site",
+    "demoLink": "https://portfolio-demo.vercel.app"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1611605698335-8b1569810432?w=600&auto=format&fit=crop",
+    "title": "Chat Application",
+    "description": "Real-time chat application with socket-based communication and authentication system.",
+    "tags": ["React", "Socket.io", "Express", "MongoDB"],
+    "repoLink": "https://github.com/user/chat-app",
+    "demoLink": null
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&auto=format&fit=crop",
+    "title": "E-commerce Store",
+    "description": "Full-stack e-commerce application with cart, payment integration, and admin panel.",
+    "tags": ["React", "Redux", "Stripe", "Firebase"],
+    "repoLink": "https://github.com/user/ecommerce-store",
+    "demoLink": "https://shop-demo.vercel.app"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&auto=format&fit=crop",
+    "title": "Task Manager",
+    "description": "A productivity app to manage daily tasks with drag-and-drop and reminders.",
+    "tags": ["React", "TypeScript", "Dnd Kit"],
+    "repoLink": "https://github.com/user/task-manager",
+    "demoLink": "https://task-demo.vercel.app"
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1501973801540-537f08ccae7b?w=600&auto=format&fit=crop",
+    "title": "Weather App",
+    "description": "Weather forecasting app with live API data and location-based updates.",
+    "tags": ["JavaScript", "API", "CSS"],
+    "repoLink": "https://github.com/user/weather-app",
+    "demoLink": "https://weather-demo.vercel.app"
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&auto=format&fit=crop",
+    "title": "Blog Platform",
+    "description": "A full-featured blogging platform with markdown support and user authentication.",
+    "tags": ["Next.js", "MongoDB", "Auth"],
+    "repoLink": "https://github.com/user/blog-platform",
+    "demoLink": "https://blog-demo.vercel.app"
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&auto=format&fit=crop",
+    "title": "Expense Tracker",
+    "description": "Track your expenses with charts, filters, and monthly analytics.",
+    "tags": ["React", "Context API", "Chart.js"],
+    "repoLink": "https://github.com/user/expense-tracker",
+    "demoLink": "https://expense-demo.vercel.app"
+  }
+]
