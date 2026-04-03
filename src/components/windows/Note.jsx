@@ -12,9 +12,11 @@ function Note() {
     },[])
     
   return (
-    <div>
-      
-    </div>
+    <MacWindow>
+        <div className='note-window'>
+            {markdown ? <Markdown>{markdown}</Markdown>: <p>Loading...</p>}
+        </div>
+    </MacWindow>
   )
 }
 
