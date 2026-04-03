@@ -1,8 +1,9 @@
-import React,{useEffect} from 'react'
+import React,{useEffect, useState} from 'react'
 import Markdown from 'react-markdown'
 
 
 function Note() {
+    const [markdown,setMarkdown]=useState(null)
   return (
     <div>
       
