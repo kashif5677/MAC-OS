@@ -1,5 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import Markdown from 'react-markdown'
+import MacWindow from './MacWindow'
 
 
 function Note() {

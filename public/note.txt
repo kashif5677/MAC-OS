@@ -1,0 +1,85 @@
+========================================
+           DEVELOPER PROFILE
+========================================
+
+Name: Kashif Anam
+Role: Full Stack Developer
+
+----------------------------------------
+SUMMARY
+----------------------------------------
+Motivated Full Stack Developer with a strong foundation in modern web technologies. 
+Experienced in building responsive, user-friendly applications and working with both 
+frontend and backend systems. Passionate about clean code, performance optimization, 
+and scalable solutions.
+
+----------------------------------------
+TECHNICAL SKILLS
+----------------------------------------
+Frontend:
+- HTML5, CSS3, JavaScript (ES6+)
+- React.js
+- Responsive Design
+
+Backend:
+- Node.js
+- Express.js
+
+Database:
+- MongoDB
+
+Other:
+- TypeScript (Basic)
+- REST API Development
+- Git & GitHub
+
+----------------------------------------
+PROJECTS
+----------------------------------------
+1. AI Trading Dashboard
+   - Developed a dashboard to analyze stock trends using AI-based logic.
+   - Implemented chart visualizations and trading signals.
+
+2. Portfolio Website
+   - Designed and built a personal portfolio with animations and responsive UI.
+   - Showcased projects and skills effectively.
+
+3. Chat Application
+   - Built a real-time chat app using Socket.io.
+   - Implemented authentication and live messaging features.
+
+4. E-commerce Store
+   - Created a full-stack e-commerce platform.
+   - Integrated cart system and payment gateway.
+
+----------------------------------------
+TOOLS & TECHNOLOGIES
+----------------------------------------
+- VS Code
+- Postman
+- Git
+- Figma (Basic)
+
+----------------------------------------
+STRENGTHS
+----------------------------------------
+- Strong problem-solving ability
+- Quick learner and adaptable
+- Attention to UI/UX details
+- Debugging and optimization skills
+
+----------------------------------------
+CAREER OBJECTIVES
+----------------------------------------
+- To become a highly skilled full-stack engineer
+- To build scalable and high-performance applications
+- To explore AI integration in web and trading systems
+
+----------------------------------------
+CONTACT
+----------------------------------------
+Email: kashif@example.com
+GitHub: https://github.com/kashif5677
+LinkedIn: https://linkedin.com/in/kashif
+
+========================================
