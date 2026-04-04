@@ -1,85 +1,118 @@
 ========================================
-           DEVELOPER PROFILE
+        DEVELOPER PROFILE (TS)
 ========================================
 
-Name: Kashif Anam
-Role: Full Stack Developer
+// Type Definition
+interface DeveloperProfile {
+  name: string;
+  role: string;
+  summary: string;
+  technicalSkills: {
+    frontend: string[];
+    backend: string[];
+    database: string[];
+    other: string[];
+  };
+  projects: {
+    title: string;
+    description: string[];
+  }[];
+  toolsAndTechnologies: string[];
+  strengths: string[];
+  careerObjectives: string[];
+  contact: {
+    email: string;
+    github: string;
+    linkedin: string;
+  };
+}
 
-----------------------------------------
-SUMMARY
-----------------------------------------
-Motivated Full Stack Developer with a strong foundation in modern web technologies. 
-Experienced in building responsive, user-friendly applications and working with both 
-frontend and backend systems. Passionate about clean code, performance optimization, 
-and scalable solutions.
+// Data Object
+const developerProfile: DeveloperProfile = {
+  name: "Kashif Anam",
+  role: "Full Stack Developer",
 
-----------------------------------------
-TECHNICAL SKILLS
-----------------------------------------
-Frontend:
-- HTML5, CSS3, JavaScript (ES6+)
-- React.js
-- Responsive Design
+  summary:
+    "Motivated Full Stack Developer with strong skills in modern web technologies. Experienced in building responsive applications and scalable backend systems.",
 
-Backend:
-- Node.js
-- Express.js
+  technicalSkills: {
+    frontend: [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "React.js",
+      "Responsive Design"
+    ],
+    backend: [
+      "Node.js",
+      "Express.js"
+    ],
+    database: [
+      "MongoDB"
+    ],
+    other: [
+      "TypeScript (Basic)",
+      "REST API Development",
+      "Git & GitHub"
+    ]
+  },
 
-Database:
-- MongoDB
+  projects: [
+    {
+      title: "AI Trading Dashboard",
+      description: [
+        "Analyzes stock trends using AI logic",
+        "Includes charts and trading signals"
+      ]
+    },
+    {
+      title: "Portfolio Website",
+      description: [
+        "Responsive personal portfolio",
+        "Smooth animations and UI design"
+      ]
+    },
+    {
+      title: "Chat Application",
+      description: [
+        "Real-time chat using Socket.io",
+        "Authentication and messaging system"
+      ]
+    },
+    {
+      title: "E-commerce Store",
+      description: [
+        "Full-stack shopping platform",
+        "Cart and payment integration"
+      ]
+    }
+  ],
 
-Other:
-- TypeScript (Basic)
-- REST API Development
-- Git & GitHub
+  toolsAndTechnologies: [
+    "VS Code",
+    "Postman",
+    "Git",
+    "Figma (Basic)"
+  ],
 
-----------------------------------------
-PROJECTS
-----------------------------------------
-1. AI Trading Dashboard
-   - Developed a dashboard to analyze stock trends using AI-based logic.
-   - Implemented chart visualizations and trading signals.
+  strengths: [
+    "Problem-solving",
+    "Fast learner",
+    "UI/UX focus",
+    "Debugging skills"
+  ],
 
-2. Portfolio Website
-   - Designed and built a personal portfolio with animations and responsive UI.
-   - Showcased projects and skills effectively.
+  careerObjectives: [
+    "Become a skilled full-stack engineer",
+    "Build scalable applications",
+    "Explore AI + Trading systems"
+  ],
 
-3. Chat Application
-   - Built a real-time chat app using Socket.io.
-   - Implemented authentication and live messaging features.
-
-4. E-commerce Store
-   - Created a full-stack e-commerce platform.
-   - Integrated cart system and payment gateway.
-
-----------------------------------------
-TOOLS & TECHNOLOGIES
-----------------------------------------
-- VS Code
-- Postman
-- Git
-- Figma (Basic)
-
-----------------------------------------
-STRENGTHS
-----------------------------------------
-- Strong problem-solving ability
-- Quick learner and adaptable
-- Attention to UI/UX details
-- Debugging and optimization skills
-
-----------------------------------------
-CAREER OBJECTIVES
-----------------------------------------
-- To become a highly skilled full-stack engineer
-- To build scalable and high-performance applications
-- To explore AI integration in web and trading systems
-
-----------------------------------------
-CONTACT
-----------------------------------------
-Email: kashif@example.com
-GitHub: https://github.com/kashif5677
-LinkedIn: https://linkedin.com/in/kashif
+  contact: {
+    email: "kashif@example.com",
+    github: "https://github.com/kashif5677",
+    linkedin: "https://linkedin.com/in/kashif"
+  }
+};
 
 ========================================
