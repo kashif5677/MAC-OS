@@ -1,10 +1,14 @@
 import React from 'react'
+import MacWindow from './MacWindow'
+
 
 function Cli() {
   return (
-    <div>
-      
-    </div>
+    <MacWindow>
+      <div className="cli-wi">
+        <Terminal></Terminal>
+      </div>
+    </MacWindow>
   )
 }
 
