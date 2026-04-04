@@ -4,7 +4,7 @@ import './spotify.scss'
 
 function Spotify() {
   return (
-    <MacWindow>
+    <MacWindow width='25vw'>
       <div className="spotify-window">
         <iframe data-testid="embed-iframe" style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/album/4jlyYLklV3kTBA6trX3bpj?utm_source=generator"></iframe>
       </div>
