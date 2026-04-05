@@ -1,18 +1,14 @@
 import React from 'react'
 import MacWindow from './MacWindow'
 import { ReactTerminal } from 'react-terminal'
+import './cli.scss'
 
 function Cli() {
 
-  // const commands = {
-  //   help: 'Available: help, about, projects',
-  //   about: "I'm Kashif, Full Stack Developer 🚀",
-  //   projects: 'AI Dashboard, Portfolio, Chat App'
-  // }
 
   return (
     <MacWindow>
-      <div className="cli-wi">
+      <div className="cli-window">
         <ReactTerminal
           commands={{}}
           welcomeMessage="Welcome to Md Kashif's Terminal"
