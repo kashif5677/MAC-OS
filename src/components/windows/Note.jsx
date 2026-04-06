@@ -8,7 +8,7 @@ import { atelierDuneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 function Note({windowName,setWindowsState}) {
     const [markdown,setMarkdown]=useState(null)
-
+gslkjgil
     useEffect(()=>{
         fetch('/note.txt')
         .then(res=>res.text())
