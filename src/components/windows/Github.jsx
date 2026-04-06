@@ -20,9 +20,9 @@ const GitCard=({data={id:1,image:"",title:"",description:"",tags:[],repoLink:"",
         </div>
     </div>
 }
-function Github() {
+function Github({windowName,windowsState,setWindowsState}) {
   return (
-    <MacWindow>
+    <MacWindow windowName={windowName} windowsState={windowsState} setWindowsState={setWindowsState}>
         <div className="cards">
             {githubData.map(project =>{
                 return <GitCard data={project}/>
