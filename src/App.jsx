@@ -21,11 +21,11 @@ function App() {
    <main>
     <Navbar/>
     <Dock windowsState={windowsState} setWindowsState={setWindowsState}/>
-   { windowsState.github && <Github windowName="Github" windowsState={windowsState} setWindowsState={setWindowsState} />}
-    { windowsState.note && <Note windowName="note" windowsState={windowsState} setWindowsState={setWindowsState}/>}
-   { windowsState.resume && <Resume windowName="resume" windowsState={windowsState} setWindowsState={setWindowsState}/> }
-   { windowsState.spotify && <Spotify windowName="spotify" windowsState={windowsState} setWindowsState={setWindowsState}/>}
-   { windowsState.cli && <Cli windowName="cli" windowsState={windowsState} setWindowsState={setWindowsState}/>}
+   { windowsState.github && <Github windowName="ithub" setWindowsState={setWindowsState} />}
+    { windowsState.note && <Note windowName="note" setWindowsState={setWindowsState}/>}
+   { windowsState.resume && <Resume windowName="resume" setWindowsState={setWindowsState}/> }
+   { windowsState.spotify && <Spotify windowName="spotify" setWindowsState={setWindowsState}/>}
+   { windowsState.cli && <Cli windowName="cli" setWindowsState={setWindowsState}/>}
    </main>
   )
 }
