@@ -22,11 +22,11 @@ function App() {
    <main>
     <Navbar/>
     <Dock/>
-    <Github/>
-    <Note/>
-    <Resume/>
-    <Spotify/>
-    <Cli/>
+   { windowsState.github && <Github/>}
+    { windowsState.note && <Note/>}
+   { windowsState.resume && <Resume/> }
+   { windowsState.spotify && <Spotify/>}
+   { windowsState.cli && <Cli/>}
    </main>
   )
 }
