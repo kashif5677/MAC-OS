@@ -6,7 +6,7 @@ import SyntaxHighlighter from 'react-syntax-highlighter'
 import { atelierDuneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 
-function Note({windowName,setWindowsState}) {
+function Note({}) {
     const [markdown,setMarkdown]=useState(null)
 
     useEffect(()=>{
