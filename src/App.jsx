@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './app.scss'
 import Dock from './components/Dock'
 import Navbar from './components/Navbar'
@@ -8,6 +9,14 @@ import Resume from './components/windows/Resume'
 import Spotify from './components/windows/Spotify'
 
 function App() {
+
+  const [windowsState, setWindowsState] = useState({
+    github: false,
+    note: false,
+    resume: false,
+    cli: false
+  })
+
 
   return (
    <main>
