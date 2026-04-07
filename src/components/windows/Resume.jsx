@@ -2,7 +2,7 @@ import React from 'react'
 import MacWindow from './MacWindow'
 import './resume.scss'
 
-function Resume() {
+function Resume({windowName,setWindowsState}) {
   return (
     <MacWindow>
       <div className="resume-window">
