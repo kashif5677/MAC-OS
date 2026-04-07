@@ -2,7 +2,7 @@ import React from 'react'
 import MacWindow from './MacWindow'
 import './spotify.scss'
 
-function Spotify() {
+function Spotify({windowName,setWindowsState}) {
   return (
     <MacWindow width='25vw'>
       <div className="spotify-window">
